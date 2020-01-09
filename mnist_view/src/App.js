@@ -1,8 +1,8 @@
 import React from 'react';
 import * as tf from '@tensorflow/tfjs';
 import * as tfvis from '@tensorflow/tfjs-vis';
+import RealtimePre from './MNIST/RealtimePre.js';
 import './App.css';
-
 
 async function getData() {
   const carsDataReq = await fetch('https://storage.googleapis.com/tfjs-tutorials/carsData.json');
@@ -161,19 +161,17 @@ async function run(){
 }
 
 
-
-
 function main() {
   document.addEventListener('DOMContentLoaded', run);
 }
 
 
 function App() {
-  main();
+
   return (
-    <div className='backgound'>
-      <h2>간단한 AND 제작 > {100}</h2>
-    </div>
+    <RealtimePre>
+      안녕하세용
+    </RealtimePre>
   );
 }
 
