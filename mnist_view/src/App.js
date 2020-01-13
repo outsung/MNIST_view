@@ -168,7 +168,7 @@ function main() {
 
 function App() {
   console.log("main start");
-  main()
+  main();
   return (
     <RealtimePre>
       안녕하세용
