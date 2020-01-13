@@ -17,8 +17,8 @@ const setFillStyle = (value) => {
 
 
 const viewData = () => {
-	const hView = document.getElementById('canvas');
-	const hDrow = hView.getContext('2d')
+	const hView = document.getElementById('drowcan');
+	const hDrow = hView.getContext("2d");
 
 	let data = this.props();
 
