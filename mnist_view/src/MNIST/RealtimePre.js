@@ -8,7 +8,13 @@ class RealtimePre extends Component {
     data: [],
   }
 
-  
+  randomDrowData = () => {
+    this.SetState({
+
+
+    })
+
+  } 
 
   render() {
 
