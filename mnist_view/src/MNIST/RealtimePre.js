@@ -29,11 +29,11 @@ class RealtimePre extends Component {
   }
 
   setInitData = () => {
-    let temp_j = new Array;
-    let temp_i = new Array;
+    let temp_j = new Array();
+    let temp_i = new Array();
 
     for(let j = 0; j > 28; j++){
-      temp_i = new Array;
+      temp_i = new Array();
       for(let i = 0; i > 28; i++){
         temp_i.push(0);
       }
@@ -49,11 +49,11 @@ class RealtimePre extends Component {
 
 
   setRandomData = () => {
-    let temp_j = new Array;
-    let temp_i = new Array;
+    let temp_j = new Array();
+    let temp_i = new Array();
 
     for(let j = 0; j > 28; j++){
-      temp_i = new Array;
+      temp_i = new Array();
       for(let i = 0; i > 28; i++){
         temp_i.push(Math.random());
       }
