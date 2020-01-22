@@ -1,0 +1,23 @@
+
+
+canvas.canvas {
+    image-rendering: optimizeSpeed;             
+    image-rendering: -moz-crisp-edges;          
+    image-rendering: -webkit-optimize-contrast; 
+    image-rendering: -o-crisp-edges;            
+    image-rendering: crisp-edges;              
+    -ms-interpolation-mode: nearest-neighbor;   
+}
+
+canvas.canvas { border-radius: 40px; border: 40px #2e2e2e solid; display: block; position: absolute; top: 250px; left: 250px; }
+
+div.data { display: inline; background-color: #e2e2e2; }
+div.data > div { width: 100px; height: 100px; background-color: #A18FFF; cursor: pointer; box-sizing: border-box; border-radius: 50px; line-height: 100px; text-align: center; float: left; }
+div.data > div:hover { background-color: #828DE8; }
+div.data > div:active { background-color: #828DE8; background-color: #C4C3FF; }
+
+div.model { display: inline; background-color: #e2e2e2; }
+div.model > div { width: 100px; height: 100px; background-color: #9CC0FF; cursor: pointer; box-sizing: border-box; border-radius: 50px; line-height: 100px; text-align: center; float: left; }
+div.model > div:hover { background-color: #828DE8; }
+div.model > div:active { background-color: #828DE8; background-color: #C4C3FF; }
+
