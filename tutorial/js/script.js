@@ -142,7 +142,14 @@ async function run() {
   await showConfusion(model, data);
 }
 
-document.querySelector("div.reset").addEventListener("click",run)
+document.querySelector("div.submit").addEventListener("click",run);
+document.querySelector("div.learning").addEventListener("click",run);
+document.querySelector("div.delete").addEventListener("click",run);
+
+document.querySelector("div.save").addEventListener("click",run);
+document.querySelector("div.reset").addEventListener("click",run);
+document.querySelector("div.edit").addEventListener("click",run);
+
 
 const classNames = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
 
